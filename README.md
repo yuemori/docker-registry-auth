@@ -35,3 +35,8 @@ $ echo "export other_args=\"--insecure-registry my-registry:5000\" | sudo tee -a
 ```
 $ echo "export other_args=\"--insecure-registry my-registry:5000\" | sudo tee -a /etc/sysconfig/docker && sudo service docker restart
 ```
+
+### CoreOS
+
+See [the official document](https://coreos.com/os/docs/latest/registry-authentication.html#using-a-registry-without-ssl-configured).
+It may have already configured for your LAN.
